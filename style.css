@@ -1,0 +1,148 @@
+
+/* Global Styles */
+/* Global Styles */
+/* Global Styles */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #28a745; /* Green background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Make the list items inline */
+    margin-right: 20px; /* Add some space between the menu items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0056b3;
+}
+
+nav ul li a:hover {
+    background-color: #003f7f;
+}
+
+/* Content Section Styles */
+.content-section {
+    display: none;
+    padding: 30px;
+    margin: 30px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out; /* Smooth transition for appearance */
+}
+
+.content-section.active {
+    display: block;
+}
+
+/* About Me Section */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* Education Section */
+#education {
+    background-color: #f1f1f1;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #e9ecef;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #f8f9fa;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e9ecef;
+}
+
+/* Typography & Text Styling */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gallery & Video Styling */
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.videos video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarekegn Walle Yirdaw - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tarekegn Walle Yirdaw</h1>
+        <p>Web Developer | Programmer | Information Systems Specialist</p>
+        <!-- Horizontal Menu -->
+        <nav>
+            <ul>
+                <li><a href="#about" onclick="showSection('about')">About Me</a></li>
+                <li><a href="#education" onclick="showSection('education')">Education</a></li>
+                <li><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#portfolio" onclick="showSection('portfolio')">Portfolio</a></li>
+                <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content Sections -->
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Tarekegn Walle Yirdaw. I hold an MSc in Information Systems from Gondar University...</p>
+    </section>
+
+    <section id="education" class="content-section">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>MSc in Information Systems</strong> - Gondar University, 2023</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="content-section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>C++</li>
+            <li>Basic knowledge of programming concepts and algorithms</li>
+        </ul>
+    </section>
+
+    <section id="portfolio" class="content-section">
+        <h2>My Work</h2>
+        <div class="gallery">
+            <h3>Photos</h3>
+            <img src="photo1.jpg" alt="Portfolio photo 1">
+            <img src="photo2.jpg" alt="Portfolio photo 2">
+        </div>
+        
+        <div class="videos">
+            <h3>Videos</h3>
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:tarekegnwalle28@gmail.com">tarekegnwalle28@gmail.com</a></p>
+        <p>Phone: <a href="tel:+251928437826">+251928437826</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
